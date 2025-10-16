@@ -14,6 +14,12 @@ The **a11y-agent** is an expert accessibility validator that helps developers bu
 
 The agent uses **axe-core** (the industry-standard accessibility testing engine) combined with Claude's expertise to deliver actionable, detailed accessibility audits.
 
+Example: Before and After using the a11y-agent
+ ![An example of bad accessibility - The Before](bad-a11y.png "An example of an order form website with bad accessibility")
+
+![Fixed accessibility - The After](fixed-a11y.png "Order form with fixes for accessibility")
+
+
 ## Key Features
 
 - **Automated Scanning**: Uses Puppeteer for live sites, filesystem tools for local code
